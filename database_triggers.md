@@ -15,3 +15,7 @@ On Database Delete: triggers when data is deleted from a table. The job is fired
 
 Notice that the tokens are built automatically using column names, so you can reference inserted, updated or deleted values inside actions using [ColumnName] token syntax. You also get the original value using the [ColumnName:Before] syntax.
 ![](database-triggers.png)
+
+Notes:
+* You can not use text/ntext/image sql columns for Database Update Column
+* If you use a token for a nullable column keep in mind that the tokenization rezult is actually a empty string (ie nothing). In order to have NULL as tokenization result set first action an *Inject Data* with condition *[ColumnName] == ""* and in Data the element with name *ColumnName* and value *NULL*.
