@@ -1,18 +1,21 @@
 # POP Mail
 
 The new POP Mail trigger is fired each time an email is received, and the following tokens are created along with this trigger: 
-[Mail:From], 
-[Mail:FromName] - Friendly Name, 
-[Mail:To], 
-[Mail:Cc], 
-[Mail:Bcc], 
-[Mail:Subject], 
-[Mail:DateSent], 
-[Mail:Body], 
-[Mail:HasAttachments], 
-[Mail:AttachmentsNameList].
 
-POP Mail trigger with Gmail:
+* [Mail:From]
+* [Mail:FromName]
+* [Mail:To]
+* [Mail:Cc]
+* [Mail:Bcc]
+* [Mail:Subject]
+* [Mail:DateSent]
+* [Mail:Body]
+* [Mail:HasAttachments]
+* [Mail:AttachmentsNameList]
+
+
+
+## POP Mail trigger with Gmail:
 
 
 1. enable POP option in your Gmail account: https://support.google.com/mail/troubleshooter/1668960?hl=en#ts=1665119
