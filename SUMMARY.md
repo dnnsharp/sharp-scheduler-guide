@@ -15,5 +15,5 @@
    * [Send Email](send_email.md)
    * [Serialization](serialization.md)
 * [Debugging](debugging.md)
-* Examples
+* [Examples](examples.md)
 
