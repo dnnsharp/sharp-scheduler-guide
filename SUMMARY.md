@@ -13,7 +13,7 @@
    * [Run SQL Query](run_sql_query.md)
    * [Send Email](send_email.md)
    * [Serialization](serialization.md)
-   * Search Boost
+   * [Search Boost](search_boost.md)
 * [Triggers](triggers1.md)
    * [App Events Triggers](app_events.md)
    * [Database Triggers](database_triggers.md)
