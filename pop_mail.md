@@ -32,15 +32,13 @@ The new POP Mail trigger is fired each time an email is received, and the follow
 Enable recent mode if you have issues with Gmail emails not being received by the trigger:
 By default Gmail makes the email available to the first POP client that accesses the mail. So if you have another POP client that queries the account (Outlook, mobile device, etc.) and you have issues with our POP Mail trigger you can enable the recent mode by adding 'recent:' in front of the username. This will ensure that you receive the email from the last 30 days no matter what.
 
-google support link, How gmail POP3 works
-
 POP Mail trigger with Yahoo:
 
-1. create a new cron job
-2. add POP Mail trigger
-3. set the Pop3 server option to pop.mail.yahoo.com  (which can be found here: https://help.yahoo.com/kb/pop-server-settings-sln4724.html)
-4. check Use SSL option
-5. set Username and Password
-6. set Check Interval and Start date
-7. set a subject and a sender
-8. set a cron action which will be executed when an email which matches the filters set on the trigger is send
+1. Create a new cron job ;
+2. Add POP Mail trigger ;
+3. Set the Pop3 server option to pop.mail.yahoo.com  (which can be found here: https://help.yahoo.com/kb/pop-server-settings-sln4724.html) ;
+4. Check Use SSL option ;
+5. Set Username and Password ;
+6. Set Check Interval and Start date ;
+7. Set a subject and a sender ;
+8. Set a cron action which will be executed when an email which matches the filters set on the trigger is send .
