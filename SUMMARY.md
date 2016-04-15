@@ -14,7 +14,7 @@
    * [Send Email](send_email.md)
    * [Serialization](serialization.md)
 * [Triggers](triggers1.md)
-   * App Events
+   * [App Events](app_events.md)
 * [Debugging](debugging.md)
 * [Examples](examples.md)
 * [Extending Sharp Scheduler](extending_sharp_scheduler.md)
