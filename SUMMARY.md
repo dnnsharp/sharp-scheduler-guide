@@ -15,7 +15,7 @@
    * [Serialization](serialization.md)
 * [Triggers](triggers1.md)
    * [App Events](app_events.md)
-   * Database Triggers
+   * [Database Triggers](database_triggers.md)
 * [Debugging](debugging.md)
 * [Examples](examples.md)
 * [Extending Sharp Scheduler](extending_sharp_scheduler.md)
