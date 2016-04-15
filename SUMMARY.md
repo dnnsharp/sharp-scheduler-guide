@@ -16,4 +16,5 @@
    * [Serialization](serialization.md)
 * [Debugging](debugging.md)
 * [Examples](examples.md)
+* Extending Sharp Scheduler
 
