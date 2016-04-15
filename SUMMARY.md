@@ -5,5 +5,5 @@
 * [Getting Started](getting_started.md)
 * [Actions](actions.md)
 * [Execute Method](execute_method.md)
-* Log Job Context
+* [Log Job Context](log_job_context.md)
 
