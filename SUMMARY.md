@@ -10,5 +10,5 @@
 * [Run DNN Job](run_dnn_job.md)
 * [Run Executable](run_executable.md)
 * [Run PowerShell Script](run_powershell_script.md)
-* Run SQL Query
+* [Run SQL Query](run_sql_query.md)
 
