@@ -14,7 +14,7 @@
    * [Send Email](send_email.md)
    * [Serialization](serialization.md)
 * [Triggers](triggers1.md)
-   * [App Events](app_events.md)
+   * [App Events Triggers](app_events.md)
    * [Database Triggers](database_triggers.md)
    * [POP Mail](pop_mail.md)
    * [On User Created](on_user_created.md)
