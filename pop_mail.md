@@ -1,2 +1,45 @@
 # POP Mail
 
+The new POP Mail trigger is fired each time an email is received, and the following tokens are created along with this trigger: 
+[Mail:From], 
+[Mail:FromName] - Friendly Name, 
+[Mail:To], 
+[Mail:Cc], 
+[Mail:Bcc], 
+[Mail:Subject], 
+[Mail:DateSent], 
+[Mail:Body], 
+[Mail:HasAttachments], 
+[Mail:AttachmentsNameList].
+
+POP Mail trigger with Gmail:
+
+
+1. enable POP option in your Gmail account: https://support.google.com/mail/troubleshooter/1668960?hl=en#ts=1665119
+2. create a new cron
+3. add POP Mail trigger
+4. set POP Gmail server details: pop.gmail.com 
+   (which can be found here: https://support.google.com/mail/troubleshooter/1668960?hl=en&rd=1#ts=1665119,1665162)
+5. check Use SSL option
+6. add your Gmail "Username" and "Password"
+7. set an interval and a "Start Date"
+8. set a subject in "Filter email by subject" field
+9. set a sender email address in "Filter email by sender"
+10. additionally or optionally, set a Header and a Filter in "Custom Headers Filters"
+11. set  cron action which will be executed at the interval set on the trigger each time an email which matches the filters set on the trigger is sent 
+
+Enable recent mode if you have issues with Gmail emails not being received by the trigger:
+By default Gmail makes the email available to the first POP client that accesses the mail. So if you have another POP client that queries the account (Outlook, mobile device, etc.) and you have issues with our POP Mail trigger you can enable the recent mode by adding 'recent:' in front of the username. This will ensure that you receive the email from the last 30 days no matter what.
+
+google support link, How gmail POP3 works
+
+POP Mail trigger with Yahoo:
+
+1. create a new cron job
+2. add POP Mail trigger
+3. set the Pop3 server option to pop.mail.yahoo.com  (which can be found here: https://help.yahoo.com/kb/pop-server-settings-sln4724.html)
+4. check Use SSL option
+5. set Username and Password
+6. set Check Interval and Start date
+7. set a subject and a sender
+8. set a cron action which will be executed when an email which matches the filters set on the trigger is send
