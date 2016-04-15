@@ -2,4 +2,5 @@
 
 * [Introduction](README.md)
 * [FAQ](faq.md)
+* Getting Started
 
