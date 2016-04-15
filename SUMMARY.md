@@ -10,6 +10,7 @@
 * [Log Job Context](log_job_context.md)
 * [Post Data](post_data.md)
 * [Run DNN Job](run_dnn_job.md)
+   * triggers
 * [Run Executable](run_executable.md)
 * [Run PowerShell Script](run_powershell_script.md)
 * [Run SQL Query](run_sql_query.md)
