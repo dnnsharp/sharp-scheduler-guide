@@ -14,5 +14,5 @@
    * [Run SQL Query](run_sql_query.md)
    * [Send Email](send_email.md)
    * [Serialization](serialization.md)
-* Debugging
+* [Debugging](debugging.md)
 
