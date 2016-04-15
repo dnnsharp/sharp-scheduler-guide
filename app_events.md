@@ -16,4 +16,7 @@ Before a http request begins in the current DNN instance ;
 * 
 End Request 
 After a http request ends in the current DNN instance
-The App events can be added, as usual, through the "Add new trigger" drop-down button (see the Jobs section). The "Save" button must be used to actually add the triggers to the current job.
+
+The App events can be added through the "Add new trigger" drop-down button (see screenshot below). 
+
+![](app-events.png)
