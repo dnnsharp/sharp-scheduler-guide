@@ -13,5 +13,5 @@
 * [Run PowerShell Script](run_powershell_script.md)
 * [Run SQL Query](run_sql_query.md)
 * [Send Email](send_email.md)
-* Serialization
+* [Serialization](serialization.md)
 
