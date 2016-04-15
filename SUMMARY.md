@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+   * Triggers
 * [FAQ](faq.md)
 * [Getting Started](getting_started.md)
 * [Actions](actions.md)
