@@ -14,3 +14,4 @@ On Database Update Column: triggers when data is updated into a named column. Th
 On Database Delete: triggers when data is deleted from a table. The job is fired once for every deleted row.
 
 Notice that the tokens are built automatically using column names, so you can reference inserted, updated or deleted values inside actions using [ColumnName] token syntax. You also get the original value using the [ColumnName:Before] syntax.
+![](database-triggers.png)
