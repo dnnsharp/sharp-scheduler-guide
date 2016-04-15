@@ -17,6 +17,7 @@
    * [App Events](app_events.md)
    * [Database Triggers](database_triggers.md)
    * [POP Mail](pop_mail.md)
+   * On User Created
 * [Debugging](debugging.md)
 * [Examples](examples.md)
 * [Extending Sharp Scheduler](extending_sharp_scheduler.md)
