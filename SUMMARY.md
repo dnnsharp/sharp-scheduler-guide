@@ -1,10 +1,10 @@
 # Summary
 
 * [Introduction](README.md)
-* [Triggers](triggers1.md)
 * [FAQ](faq.md)
 * [Getting Started](getting_started.md)
 * [Actions](actions.md)
+* [Triggers](triggers1.md)
 * [Execute Method](execute_method.md)
 * [Log Job Context](log_job_context.md)
 * [Post Data](post_data.md)
