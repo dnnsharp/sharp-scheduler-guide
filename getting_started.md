@@ -22,3 +22,5 @@ This page guides you through setting up Sharp Scheduler to run the most simple j
 6. So far, we told Sharp Scheduler what triggers should activate. Next, we'll tell it what action to execute when our trigger fires. In our scenario, we want to send an email to a specific email address. So in the Actions section, click Add Action button then select from the dropdown that activates below Notifications > Send Email.
 
 ![](Add action.png)
+
+[](https://www.youtube.com/watch?v=Fg6GAOYGsmg)
