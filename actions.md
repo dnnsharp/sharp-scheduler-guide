@@ -8,6 +8,6 @@ Second, think about the errors handling behavior described in the first paragrap
 
 ![](All actions.png)
 
-It's also worth mentioning that Sharp Scheduler providers a framework for new types of actions to be plugged in. This is for example how Search Boost provides several jobs for granular indexing of content. Make sure to read Extensions pages for more info.
+It's also worth mentioning that Sharp Scheduler providers a framework for new types of actions to be plugged in. Make sure to read Extensions pages for more info.
 
 The rest of this section goes through each of the core actions that ship with Sharp Scheduler.
