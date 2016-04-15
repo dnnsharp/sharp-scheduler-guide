@@ -18,6 +18,7 @@
    * [Database Triggers](database_triggers.md)
    * [POP Mail Triggers](pop_mail.md)
    * [On User Created](on_user_created.md)
+   * Time Triggers
 * [Debugging](debugging.md)
 * [Examples](examples.md)
 * [Extending Sharp Scheduler](extending_sharp_scheduler.md)
