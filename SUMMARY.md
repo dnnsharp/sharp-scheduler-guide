@@ -23,5 +23,5 @@
 * [Debugging](debugging.md)
 * [Examples](examples.md)
 * [Extending Sharp Scheduler](extending_sharp_scheduler.md)
-* Extensions
+* [Extensions](extensions.md)
 
