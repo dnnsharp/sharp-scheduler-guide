@@ -17,5 +17,5 @@ Notice that the tokens are built automatically using column names, so you can re
 ![](database-triggers.png)
 
 Notes:
-* You can not use text/ntext/image sql columns for Database Update Column
+* You can not use text/ntext/image sql columns for Database Update Column ( they are actually deprecated since SQL Server 2005)
 * If you use a token for a nullable column keep in mind that the tokenization rezult is actually a empty string (ie nothing). In order to have NULL as tokenization result set first action an *Inject Data* with condition *[ColumnName] == ""* and in Data the element with name *ColumnName* and value *NULL*.
