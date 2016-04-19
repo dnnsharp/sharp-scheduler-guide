@@ -62,3 +62,23 @@ It creates an empty form so you build everything from scratch.
 Add three Form Fields: two Texts and a Button.
 For example:
 
+![](Clickatell.png)
+
+Add an Action Form with Clickatell; 
+
+Configure the button On Click Handler:
+Add Action:
+Clickatell > Send SMS via Clickatell gateway
+Here, you will use your username, password from Step 1 and the SOAP API ID from step 3 in the getting started with Clickatell section.
+Once you're done, send a SMS to test the feature.
+
+Settings Reference
+
+API ID: Clickatell SOAP API ID.
+Username: Clickatell username.
+Password: Clickatell password.
+Message: the Short Message that you intend to send, text or token.
+Max. Length of the message: the maximum length of the message that the administrator intends to limit, must be an integer if set. If left empty, there is no limit imposed by the administrator. Be aware that there is a limit thou' imposed by Clickatell, 5355 characters. (SMS gateway technical  limits). The extension will truncate the text to this Clickatell maximum, even if field is left empty.
+
+Phone number(s) to send TO: SMS messages need to be sent in the standard international format, with country code followed by number. No leading zero to the number and no special characters such as "+" or spaces must be used. For example, a number in the UK being 07901231234 should be changed to 447901231234. If you use Send Bulk, please use one phone number per line.
+Send Bulk: When this option is set, all users receive the same message. This improves perforamnce, but users specific tokens will no longer be replaced.
