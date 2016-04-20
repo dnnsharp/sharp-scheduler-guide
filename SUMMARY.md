@@ -26,4 +26,5 @@
 * [Extensions](extensions.md)
 * [History](history.md)
 * [Integrations](integrations.md)
+* Jobs
 
