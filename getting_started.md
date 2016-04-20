@@ -8,16 +8,17 @@ Create a page and add Sharp Scheduler as you normally would any other module, th
 
 ![](All jobs.png)
 
-4. Provide a unique name to your job 
+Provide a unique name for your job
 
 ![](Name your job.png)
 
 
-5. Locate Add New Trigger drop-down button and choose One Time option from the Time category. (Notice that there is no limit on how many triggers a job can have).
+Locate the Add New Trigger dropdown button and choose the One Time option from the Time category. Notice that there is no limit on how many triggers a job can have.
+
 
 ![](Triggers.png)
 
-6. So far, we told Sharp Scheduler what triggers should activate. Next, we'll tell it what action to execute when our trigger fires. In our scenario, we want to send an email to a specific email address. So in the Actions section, click Add Action button then select from the dropdown that activates below Notifications > Send Email.
+ 
 
 ![](Add action.png)
 
