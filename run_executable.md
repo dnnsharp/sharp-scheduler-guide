@@ -6,6 +6,6 @@ This action runs an executable on the server, optionally capturing the output. T
 
 **Arguments**. Optionally pass command line arguments to the application. Using cmd.exe in the Applicationfield and /c "echo test" in this field will output the word test. It can contain context tokens ([ContextTokenName]) and My Tokens.
 
-**Output Token Name**. Optionally, provide a name under which to store the execution result in the job context. This will make it possible to use in other actions down the stack. Note how the examples provided here use instructions from the standard windows command line. This is very limiting, so that’s why we also implemented another action that provides access to the Windows Power Shell.
+**Output Token Name**. Optionally, provide a name under which to store the execution result in the job context. This will make it possible to use in other actions down the stack. Note how the examples provided here use instructions from the standard windows command line. This is very limiting, so that’s why we've also implemented another action that provides access to the Windows PowerShell.
 
 ![](Run executable.png)
