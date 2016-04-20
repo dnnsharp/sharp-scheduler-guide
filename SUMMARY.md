@@ -27,4 +27,5 @@
 * [History](history.md)
 * [Integrations](integrations.md)
 * [Jobs](jobs.md)
+* Migrate from DNN Scheduler
 
