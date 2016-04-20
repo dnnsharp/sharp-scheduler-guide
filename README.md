@@ -9,7 +9,7 @@ It allows for an easy way to manage, schedule and execute actions such as: run S
 
 **Enterprise-Focused**
 
-At DNN Sharp, we want pricing that is simple, straightforward, fair to the typical user and fosters adoption across your organization. Once you choose a Sharp Scheduler license, you have as many DNN installations as you want, at no additional cost. 
+At DNN Sharp, we want pricing that is simple, straightforward, fair to the typical user and fosters adoption across your organization.  
 
 **Extensions Framework**
 
