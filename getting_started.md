@@ -4,9 +4,8 @@ This page guides you through setting up Sharp Scheduler. Let's say you want to s
 
 Before you proceed, make sure you have Sharp Scheduler installed on your portal. You can download it from the Sharp Scheduler [download page](http://www.dnnsharp.com/dnn/modules/sharp-task-scheduler/download) and install it from Host > Extensions.
 
-Create a page and add Sharp Scheduler as you normally would any other module.
+Create a page and add Sharp Scheduler as you normally would any other module, then locate and click the New Job button in order to create a new job.
 
-Locate and click the New Job button in order to create a new job
 
 ![](New Job.png)
 
