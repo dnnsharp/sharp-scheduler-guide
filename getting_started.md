@@ -18,7 +18,8 @@ Locate the Add New Trigger dropdown button and choose the One Time option from t
 
 ![](Triggers.png)
 
- 
+In this scenario, we want to send an email to a specific email address. In the Actions section, click the Add Action button, then select Email > Send Email.
+
 
 ![](Add action.png)
 
