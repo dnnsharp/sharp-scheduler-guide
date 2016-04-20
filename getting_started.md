@@ -1,12 +1,12 @@
 # Getting Started
 
-This page guides you through setting up Sharp Scheduler to run the most simple job to be executed when certain event occur. Let's say you want to send an e-mail once at specified date and time.
+This page guides you through setting up Sharp Scheduler. Let's say you want to send an e-mail once at a specified date and time.
 
-1. Before you proceed make sure you have Sharp Scheduler installed on your portal. You can download it from Sharp Scheduler Download Page and install it from Host > Extensions screen.
+Before you proceed, make sure you have Sharp Scheduler installed on your portal. You can download it from the Sharp Scheduler [download page](http://www.dnnsharp.com/dnn/modules/sharp-task-scheduler/download) and install it from Host > Extensions.
 
-2. Create a page and add Sharp Scheduler module on it as you normally would with any other module.
+Create a page and add Sharp Scheduler as you normally would any other module.
 
-3. Locate and click the New Job button in order to create a new job
+Locate and click the New Job button in order to create a new job
 
 ![](New Job.png)
 
