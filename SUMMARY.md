@@ -25,4 +25,5 @@
 * [Extending Sharp Scheduler](extending_sharp_scheduler.md)
 * [Extensions](extensions.md)
 * [History](history.md)
+* Integrations
 
