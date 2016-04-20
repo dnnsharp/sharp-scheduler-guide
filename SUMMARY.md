@@ -24,5 +24,5 @@
 * [Examples](examples.md)
 * [Extending Sharp Scheduler](extending_sharp_scheduler.md)
 * [Extensions](extensions.md)
-* History
+* [History](history.md)
 
