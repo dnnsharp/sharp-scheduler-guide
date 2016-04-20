@@ -15,13 +15,13 @@
 1. create a cron job
 2. optionally set a trigger
 3. add Run SQL Query action
-4. set on "Other Connection String" field the connection string details from the web.config file of the site you want to use, they are supposed to look like this: 
+4. set on "Other Connection String" field the connection string details from the web.config file of the site you want to use. What you are looking for is this:
 Data Source=(local);Initial Catalog=test;User ID=myuser;Password=mypassword!
 
 **How to schedule tasks for tables created in different database schema**
 
 1. create a schema
-2. create a new database table > change the schema to the one previously created
+2. create a new database table > change the schema to the previously created schema
 3. create a cron job
 4. add some Database triggers
 5. select on Table Name the table previously created on the new schema
