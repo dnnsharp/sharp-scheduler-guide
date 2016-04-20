@@ -9,6 +9,6 @@ If an action fails, the execution stops and the job is marked as failed. This me
 
 ![](All actions.png)
 
-It's also worth mentioning that Sharp Scheduler providers a framework for new types of actions to be plugged in. Make sure to read Extensions pages for more info.
+It's also worth mentioning that Sharp Scheduler providers a framework for new types of actions to be plugged in. Make sure to check the Extensions pages for more info.
 
 The rest of this section goes through each of the core actions that ship with Sharp Scheduler.
