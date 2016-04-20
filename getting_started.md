@@ -6,8 +6,7 @@ Before you proceed, make sure you have Sharp Scheduler installed on your portal.
 
 Create a page and add Sharp Scheduler as you normally would any other module, then locate and click the New Job button in order to create a new job.
 
-
-![](New Job.png)
+![](All jobs.png)
 
 4. Provide a unique name to your job 
 
