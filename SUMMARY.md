@@ -16,6 +16,7 @@
    * [Serialization](serialization.md)
    * [Search Boost](search_boost.md)
 * [Index Folders](index_folders.md)
+* [Index Modules](index_modules.md)
 * [Triggers](triggers1.md)
    * [App Events Triggers](app_events.md)
    * [Database Triggers](database_triggers.md)
@@ -30,5 +31,4 @@
 * [Integrations](integrations.md)
 * [Jobs](jobs.md)
 * [Migrate from DNN Scheduler](migrate_from_dnn_scheduler.md)
-* [Index Modules](index_modules.md)
 
