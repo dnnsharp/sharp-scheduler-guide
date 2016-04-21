@@ -14,7 +14,7 @@
    * [Send Email](send_email.md)
    * [Serialization](serialization.md)
    * [Search Boost](search_boost.md)
-* Index Custom Rules
+   * Index Custom Rules
 * [Triggers](triggers1.md)
    * [App Events Triggers](app_events.md)
    * [Database Triggers](database_triggers.md)
