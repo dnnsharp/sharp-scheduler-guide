@@ -14,6 +14,7 @@
    * [Send Email](send_email.md)
    * [Serialization](serialization.md)
    * [Search Boost](search_boost.md)
+* Index Custom Rules
 * [Triggers](triggers1.md)
    * [App Events Triggers](app_events.md)
    * [Database Triggers](database_triggers.md)
@@ -29,5 +30,4 @@
 * [Jobs](jobs.md)
 * [Migrate from DNN Scheduler](migrate_from_dnn_scheduler.md)
 * [Services](services.md)
-* Index Custom Rules
 
