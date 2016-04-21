@@ -29,5 +29,5 @@
 * [Integrations](integrations.md)
 * [Jobs](jobs.md)
 * [Migrate from DNN Scheduler](migrate_from_dnn_scheduler.md)
-* Index Folders
+* [Index Folders](index_folders.md)
 
