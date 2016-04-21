@@ -5,6 +5,7 @@
 * [Getting Started](getting_started.md)
 * [Actions](actions.md)
    * [Execute Method](execute_method.md)
+   * Index Custom Rules
    * [Log Job Context](log_job_context.md)
    * [Post Data](post_data.md)
    * [Run DNN Job](run_dnn_job.md)
@@ -14,7 +15,6 @@
    * [Send Email](send_email.md)
    * [Serialization](serialization.md)
    * [Search Boost](search_boost.md)
-   * Index Custom Rules
 * [Triggers](triggers1.md)
    * [App Events Triggers](app_events.md)
    * [Database Triggers](database_triggers.md)
