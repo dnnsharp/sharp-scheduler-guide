@@ -21,6 +21,7 @@
    * [POP Mail Triggers](pop_mail.md)
    * [Time Triggers](time_triggers.md)
    * [On User Created](on_user_created.md)
+* [Index Folders](index_folders.md)
 * [Debugging](debugging.md)
 * [Examples](examples.md)
 * [Extending Sharp Scheduler](extending_sharp_scheduler.md)
@@ -29,5 +30,4 @@
 * [Integrations](integrations.md)
 * [Jobs](jobs.md)
 * [Migrate from DNN Scheduler](migrate_from_dnn_scheduler.md)
-* [Index Folders](index_folders.md)
 
