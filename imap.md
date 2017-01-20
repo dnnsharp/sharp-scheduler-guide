@@ -39,7 +39,7 @@ The tokens below are generated:
     * **Custom Data** where a Data Key and a Data Value, which can be used later in actions, can be appended.
 * **Start Date** - use this option to specify a starting date from which the trigger will scan e-mails. This will be updated with the last run time.
 * **Make this go through all existing mail at the first run**. This will override the Start Date setting.
-* **Compact body text **- it removes all empty lines and extra whitespace form the \[Mail:BodyText\] token.
+* **Compact body text **- removes all empty lines and extra whitespace form the \[Mail:BodyText\] token.
 
 * **Save Attachments** - enable this option to save the attached files.
 
