@@ -1,19 +1,19 @@
 ## IMAP Trigger
 
-It creates a connection to the e-mail server using the IMAP protocol and starts listening for push mail.
+Creates a connection to the e-mail server using the IMAP protocol and starts listening for push mail.
 
 The tokens below are generated:
 
-* \[CredentialData:Hostname\] - it contains the hostname of the IMAP Server;
-* \[CredentialData:Username\] - it contains the email/username of the credentials used to contact the IMAP server;
-* \[CredentialData:UseSSL\] - it mentions if SSL was used to connect to the IMAP Server;
-* \[CredentialData:&lt;Key&gt;\] - it will be created with the custom data set in the Credential Section used for connection; 
-* \[Mail:From\] - it contains the sender email; 
-* \[Mail:FromName\] - it contains the sender's friendly name; 
-* \[Mail:To\]  - it contains a list of emails with friendly name separated by comma; 
-* \[Mail:Cc\] - it contains a list of emails with friendly name separated by comma;
-* \[Mail:Bcc\] - it contains a list of emails with friendly name separated by comma;
-* \[Mail:Subject\] - it contains the email subject; 
+* \[CredentialData:Hostname\] - contains the hostname of the IMAP Server;
+* \[CredentialData:Username\] - contains the email/username used to contact the IMAP server;
+* \[CredentialData:UseSSL\] - mentions if SSL was used to connect to the IMAP Server;
+* \[CredentialData:&lt;Key&gt;\] - will be created with the custom data set in the Credential Section used for connection; 
+* \[Mail:From\] - contains the sender email; 
+* \[Mail:FromName\] - contains the sender's friendly name; 
+* \[Mail:To\]  - contains a list of emails with friendly name separated by comma; 
+* \[Mail:Cc\] - contains a list of emails with friendly name separated by comma;
+* \[Mail:Bcc\] - contains a list of emails with friendly name separated by comma;
+* \[Mail:Subject\] - contains the email subject; 
 * \[Mail:DateSent\] - it contains the date when the email has been sent;
 * \[Mail:Body\] - in contains the email body as HTML when it's set as HTML, otherwise it contains the text version;
 * \[Mail:BodyText\] - it contains email body as a plain text;
@@ -28,12 +28,12 @@ The tokens below are generated:
 
 **WARNING: **For each credential in the group a thread will be created. We recommend you to limit this to 20 entries.
 
-* **Edit Manage Credentials** opens a frame where the Groups and its entries can be configured. 
+* **Edit Manage Credentials** opens a frame where the Groups and their entries can be configured. 
   * **Group Title** - the title used in the Credential option.
   * **Credential Entries** - set for a group:
     * **Entry Title** - determine a suggestive name for your entry; 
     * **Hostname** - the details of the incoming email \(IMAP\) server, for example imap.gmail.com:993 \(933 represents the required Port\); 
-    * **Use SSL** - enable this option if your Email Server requires a SSL certificate;
+    * **Use SSL** - enable this option if your Email Server requires an SSL certificate;
     * **Username **- usually the full email address; 
     * **Password** - the email password;
     * **Custom Data** where a Data Key and Data Value that can be used later in action can be appended.
