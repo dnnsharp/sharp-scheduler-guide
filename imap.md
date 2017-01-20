@@ -45,17 +45,17 @@ The tokens below are generated:
 
 * **Attachments save directory **- choose a directory where the files should be saved.
 
-* **Filter E-mail by subject** - where a simple email subject can be appended. The below Use Regex option enabled will parse the complete email subject according to the set Regex expression.
+* **Filter E-mail by subject** - where a simple email subject can be appended. Enabling the Use Regex option below will parse the complete email subject according to the set Regex expression. Be advised that the subject must be a perfect match if Use Regex is not set.
 
-* **Filter E-mail by recipient** - where a simple email address can be appended. The below Use Regex option enabled will parse the email recipients according to the set Regex expression.
+* **Filter E-mail by recipient** - where a simple recipient email address can be appended. Enabling the Use Regex option below will parse the recipient email address according to the set Regex expression. Be advised that the recipient email address must be a perfect match if Use Regex is not set.
 
-* **Filter E-mail by sender** - where a simple email address can be appended. The below Use Regex option enabled will parse the email senders according to the set Regex expression.
+* **Filter E-mail by sender** -  where a simple sender email address can be appended. Enabling the Use Regex option below will parse the sender email address according to the set Regex expression. Be advised that the sender email address must be a perfect match if Use Regex is not set.
 
-* **Filter E-mail by Cc **-** **where a simple email address can be appended. The below Use Regex option enabled will parse the email cc recipients according to the set Regex expression.
+* **Filter E-mail by CC **-** **where a simple CC recipient email address can be appended. Enabling the Use Regex option below will parse the CC recipient email address according to the set Regex expression. Be advised that the CC recipient email address must be a perfect match if Use Regex is not set.
 
-* **Filter E-mail by Bcc** - where a simple email address can be appended. The below Use Regex option enabled will parse the email cc recipients according to the set Regex expression.
+* **Filter E-mail by BCC** - where a simple BCC recipient email address can be appended. Enabling the Use Regex option below will parse the BCC recipient email address according to the set Regex expression. Be advised that the BCC recipient email address must be a perfect match if Use Regex is not set.
 
-* **Filter E-mail by body **-** **where a simple plain text can be appended.The below Use Regex option enabled will parse the email body according to the set Regex expression.
+* **Filter E-mail by body **-** **where a simple plain text can be appended.The below Use Regex option enabled will parse the email body according to the set Regex expression. where a simple plain text can be appended. Enabling the Use Regex option below will parse the body email according to the set Regex expression. Be advised that the plain text must be a perfect match if Use Regex is not set.
 
 * **Filter E-mail by attachments **- choose one of the following options:
 
