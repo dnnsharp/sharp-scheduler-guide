@@ -1,4 +1,4 @@
-## IMAP Trigger 
+## IMAP Trigger
 
 Creates a connection to the e-mail server using the IMAP protocol and starts listening for push mail.
 
@@ -21,7 +21,7 @@ The tokens below are generated:
 * \[Mail:HasAttachments\] - it contains a boolean value which mention if the email has attachments;
 * \[Mail:AttachmentsNameList\] -  it contains a list with all names of the attachments separated by comma.
 
-**Credentials - **the mandatory  information for authorization. 
+**Credentials - **the mandatory  information for authorization.
 
 * **Group** -  it contains the group name, configured in the Manage Credentials section; 
 * **Entry** -  in contains all entries available for a group, configured in the Manage Credentials section;
