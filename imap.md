@@ -23,13 +23,13 @@ The tokens below are generated:
 
 **Credentials - **the mandatory  information for authorization.
 
-* **Group** -  it contains the group name, configured in the Manage Credentials section; 
+* **Group** -  it contains the group name, configured in the Manage Credentials section, which can contain several emails \(entries\); 
 * **Entry** -  in contains all entries available for a group, configured in the Manage Credentials section;
 
 **WARNING: **For each credential in the group a thread will be created. We recommend you to limit this to 20 entries.
 
 * **Edit Manage Credentials** opens a frame where the Groups and its entries can be configured. 
-  * **Group Title** - the title used in the Credential option. 
+  * **Group Title** - the title used in the Credential option.
   * **Credential Entries** - set for a group:
     * **Entry Title** - determine a suggestive name for your entry; 
     * **Hostname** - the details of the incoming email \(IMAP\) server, for example imap.gmail.com:993 \(933 represents the required Port\); 
@@ -41,7 +41,25 @@ The tokens below are generated:
 * **Make this go through all existing mail at the first run**. This will override the Start Date setting.
 * **Compact body text **- it removes all empty lines and extra whitespace form the \[Mail:BodyText\] token.
 
-* **Save Attachments** - enable this option for save the attached files. 
+* **Save Attachments** - enable this option for save the attached files.
+
+* **Attachments save directory **- choose a directory where the files should be saved. 
+
+* **Filter E-mail by subject** - where a simple email subject can be appended. The below Use Regex option enabled will parse the complete email subject according to the set Regex expression.
+
+* **Filter E-mail by recipient** - where a simple email address can be appended. The below Use Regex option enabled will parse the complete email subject according to the set Regex expression.
+
+* **Filter E-mail by sender** - 
+
+* **Filter E-mail by Cc -**
+
+* **Filter E-mail by Bcc**
+
+* **Filter E-mail by body**
+
+* **Filter E-mail by attachments**
+
+* **Custom Headers Filters**
 
 
 
