@@ -1,6 +1,6 @@
 ## IMAP Trigger
 
-It Creates a connection to the e-mail server using the IMAP protocol and starts listening for push mail.
+It creates a connection to the e-mail server using the IMAP protocol and starts listening for push mail.
 
 The tokens below are generated:
 
