@@ -57,13 +57,15 @@ The tokens below are generated:
 
 * **Filter E-mail by body **-** **where a simple plain text can be appended.The below Use Regex option enabled will parse the email body according to the set Regex expression.
 
-* **Filter E-mail by attachments **- choose one of the following options: 
+* **Filter E-mail by attachments **- choose one of the following options:
 
   * Has attachements
 
   * Doesn't have attachements
 
-* **Custom Headers Filters - **If your emails have other headers than the ones above, add custom Header and Filter. 
+* **Custom Headers Filters - **If your emails have other headers than the ones above, add custom Header and Filter.
+
+![](/assets/imap.jpg)
 
 
 
