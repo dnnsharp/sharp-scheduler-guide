@@ -28,7 +28,7 @@ The tokens below are generated:
 
 **WARNING: **For each credential in the group a thread will be created. We recommend you to limit this to 20 entries.
 
-* **Edit Manage Credentials** opens a frame where the Groups and its entries can be configure. 
+* **Edit Manage Credentials** opens a frame where the Groups and its entries can be configured. 
   * **Group Title** - the title used in the Credential option. 
   * **Credential Entries** - set for a group:
     * **Entry Title** - determine a suggestive name for your entry; 
@@ -37,6 +37,11 @@ The tokens below are generated:
     * **Username **- usually the full email address; 
     * **Password** - the email password;
     * **Custom Data** where can be appended a Data Key and a Data Value that can be used later in actions.
+* **Start Date** - use this option to specify a starting date from which the trigger will scan e-mails. This will be updated with the last run time.
+* **Make this go through all existing mail at the first run**. This will override the Start Date setting.
+* **Compact body text **- it removes all empty lines and extra whitespace form the \[Mail:BodyText\] token.
+
+* **Save Attachments** - enable this option for save the attached files. 
 
 
 
