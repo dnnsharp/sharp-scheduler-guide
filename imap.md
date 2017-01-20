@@ -51,15 +51,19 @@ The tokens below are generated:
 
 * **Filter E-mail by sender** - where a simple email address can be appended. The below Use Regex option enabled will parse the email senders according to the set Regex expression.
 
-* **Filter E-mail by Cc - **where a simple email address can be appended. The below Use Regex option enabled will parse the email cc recipients according to the set Regex expression. 
+* **Filter E-mail by Cc **-** **where a simple email address can be appended. The below Use Regex option enabled will parse the email cc recipients according to the set Regex expression.
 
-* **Filter E-mail by Bcc - **where a simple email address can be appended. The below Use Regex option enabled will parse the email cc recipients  according to the set Regex expression.
+* **Filter E-mail by Bcc** - where a simple email address can be appended. The below Use Regex option enabled will parse the email cc recipients according to the set Regex expression.
 
-* **Filter E-mail by body - **
+* **Filter E-mail by body **-** **where a simple plain text can be appended.The below Use Regex option enabled will parse the email body according to the set Regex expression.
 
-* **Filter E-mail by attachments**
+* **Filter E-mail by attachments **- choose one of the following options: 
 
-* **Custom Headers Filters**
+  * Has attachements
+
+  * Doesn't have attachements
+
+* **Custom Headers Filters - **If your emails have other headers than the ones above, add custom Header and Filter. 
 
 
 
