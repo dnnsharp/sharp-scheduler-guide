@@ -19,7 +19,7 @@ The tokens below are generated:
 * \[Mail:BodyText\] - it contains email body as a plain text;
 * \[Mail:BodyHTML\] - it contains email body as a HTML;
 * \[Mail:HasAttachments\] - it contains a boolean value which mentions if the email has attachments;
-* \[Mail:AttachmentsNameList\] -  it contains a list with all names of the attachments separated by comma.
+* \[Mail:AttachmentsNameList\] -  it contains a list with all the names of the attachments separated by comma.
 
 **Credentials - **the mandatory  information for authorization.
 
@@ -36,12 +36,12 @@ The tokens below are generated:
     * **Use SSL** - enable this option if your Email Server requires a SSL certificate;
     * **Username **- usually the full email address; 
     * **Password** - the email password;
-    * **Custom Data** where can be appended a Data Key and a Data Value that can be used later in actions.
+    * **Custom Data** where a Data Key and Data Value that can be used later in action can be appended.
 * **Start Date** - use this option to specify a starting date from which the trigger will scan e-mails. This will be updated with the last run time.
 * **Make this go through all existing mail at the first run**. This will override the Start Date setting.
 * **Compact body text **- it removes all empty lines and extra whitespace form the \[Mail:BodyText\] token.
 
-* **Save Attachments** - enable this option for save the attached files.
+* **Save Attachments** - enable this option to save the attached files.
 
 * **Attachments save directory **- choose a directory where the files should be saved.
 
