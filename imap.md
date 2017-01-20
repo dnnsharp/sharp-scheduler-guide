@@ -18,7 +18,7 @@ The tokens below are generated:
 * \[Mail:Body\] - in contains the email body as HTML when it's set as HTML, otherwise it contains the text version;
 * \[Mail:BodyText\] - it contains email body as a plain text;
 * \[Mail:BodyHTML\] - it contains email body as a HTML;
-* \[Mail:HasAttachments\] - it contains a boolean value which mention if the email has attachments;
+* \[Mail:HasAttachments\] - it contains a boolean value which mentions if the email has attachments;
 * \[Mail:AttachmentsNameList\] -  it contains a list with all names of the attachments separated by comma.
 
 **Credentials - **the mandatory  information for authorization.
