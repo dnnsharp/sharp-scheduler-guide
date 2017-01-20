@@ -43,13 +43,13 @@ The tokens below are generated:
 
 * **Save Attachments** - enable this option for save the attached files.
 
-* **Attachments save directory **- choose a directory where the files should be saved. 
+* **Attachments save directory **- choose a directory where the files should be saved.
 
 * **Filter E-mail by subject** - where a simple email subject can be appended. The below Use Regex option enabled will parse the complete email subject according to the set Regex expression.
 
 * **Filter E-mail by recipient** - where a simple email address can be appended. The below Use Regex option enabled will parse the complete email subject according to the set Regex expression.
 
-* **Filter E-mail by sender** - 
+* **Filter E-mail by sender** -
 
 * **Filter E-mail by Cc -**
 
