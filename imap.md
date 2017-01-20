@@ -14,17 +14,17 @@ The tokens below are generated:
 * \[Mail:Cc\] - contains a list of emails with friendly name separated by comma;
 * \[Mail:Bcc\] - contains a list of emails with friendly name separated by comma;
 * \[Mail:Subject\] - contains the email subject; 
-* \[Mail:DateSent\] - it contains the date when the email has been sent;
-* \[Mail:Body\] - in contains the email body as HTML when it's set as HTML, otherwise it contains the text version;
-* \[Mail:BodyText\] - it contains email body as a plain text;
-* \[Mail:BodyHTML\] - it contains email body as a HTML;
-* \[Mail:HasAttachments\] - it contains a boolean value which mentions if the email has attachments;
-* \[Mail:AttachmentsNameList\] -  it contains a list with all the names of the attachments separated by comma.
+* \[Mail:DateSent\] - contains the date when the email has been sent;
+* \[Mail:Body\] - contains the email body as HTML when it's set as HTML, otherwise it contains the text version;
+* \[Mail:BodyText\] - contains email body as a plain text;
+* \[Mail:BodyHTML\] - contains email body as a HTML;
+* \[Mail:HasAttachments\] - contains a boolean value which mentions if the email has attachments;
+* \[Mail:AttachmentsNameList\] - contains a list with all the names of the attachments separated by comma.
 
 **Credentials - **the mandatory  information for authorization.
 
-* **Group** -  it contains the group name, configured in the Manage Credentials section, which can contain several emails \(entries\); 
-* **Entry** -  in contains all entries available for a group, configured in the Manage Credentials section;
+* **Group** -  contains the group name, configured in the Manage Credentials section, which can contain several emails \(entries\); 
+* **Entry** -  contains all entries available for a group, configured in the Manage Credentials section;
 
 **WARNING: **For each credential in the group a thread will be created. We recommend you to limit this to 20 entries.
 
@@ -36,7 +36,7 @@ The tokens below are generated:
     * **Use SSL** - enable this option if your Email Server requires an SSL certificate;
     * **Username **- usually the full email address; 
     * **Password** - the email password;
-    * **Custom Data** where a Data Key and Data Value that can be used later in action can be appended.
+    * **Custom Data** where a Data Key and a Data Value, which can be used later in actions, can be appended.
 * **Start Date** - use this option to specify a starting date from which the trigger will scan e-mails. This will be updated with the last run time.
 * **Make this go through all existing mail at the first run**. This will override the Start Date setting.
 * **Compact body text **- it removes all empty lines and extra whitespace form the \[Mail:BodyText\] token.
