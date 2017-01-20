@@ -13,11 +13,11 @@ The tokens below are generated:
 * \[Mail:To\]  - it contains a list of emails with friendly name separated by comma; 
 * \[Mail:Cc\] - it contains a list of emails with friendly name separated by comma;
 * \[Mail:Bcc\] - it contains a list of emails with friendly name separated by comma;
-* \[Mail:Subject\] - it contains the email's subject; 
+* \[Mail:Subject\] - it contains the email subject; 
 * \[Mail:DateSent\] - it contains the date when the email has been sent;
-* \[Mail:Body\] - in contains the email's body as HTML when it's set as HTML, otherwise it contains the text version;
-* \[Mail:BodyText\] - it contains email's body as a plain text;
-* \[Mail:BodyHTML\] - it contains email's body as a HTML;
+* \[Mail:Body\] - in contains the email body as HTML when it's set as HTML, otherwise it contains the text version;
+* \[Mail:BodyText\] - it contains email body as a plain text;
+* \[Mail:BodyHTML\] - it contains email body as a HTML;
 * \[Mail:HasAttachments\] - it contains a boolean value which mention if the email has attachments;
 * \[Mail:AttachmentsNameList\] -  it contains a list with all names of the attachments separated by comma.
 
@@ -47,15 +47,15 @@ The tokens below are generated:
 
 * **Filter E-mail by subject** - where a simple email subject can be appended. The below Use Regex option enabled will parse the complete email subject according to the set Regex expression.
 
-* **Filter E-mail by recipient** - where a simple email address can be appended. The below Use Regex option enabled will parse the complete email subject according to the set Regex expression.
+* **Filter E-mail by recipient** - where a simple email address can be appended. The below Use Regex option enabled will parse the email recipients according to the set Regex expression.
 
-* **Filter E-mail by sender** -
+* **Filter E-mail by sender** - where a simple email address can be appended. The below Use Regex option enabled will parse the email senders according to the set Regex expression.
 
-* **Filter E-mail by Cc -**
+* **Filter E-mail by Cc - **where a simple email address can be appended. The below Use Regex option enabled will parse the email cc recipients according to the set Regex expression. 
 
-* **Filter E-mail by Bcc**
+* **Filter E-mail by Bcc - **where a simple email address can be appended. The below Use Regex option enabled will parse the email cc recipients  according to the set Regex expression.
 
-* **Filter E-mail by body**
+* **Filter E-mail by body - **
 
 * **Filter E-mail by attachments**
 
