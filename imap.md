@@ -1,6 +1,6 @@
 ## IMAP Trigger
 
-Creates a connection to the e-mail server using the IMAP protocol and starts listening for push mail.
+It Creates a connection to the e-mail server using the IMAP protocol and starts listening for push mail.
 
 The tokens below are generated:
 
@@ -66,6 +66,4 @@ The tokens below are generated:
 * **Custom Headers Filters - **If your emails have other headers than the ones above, add custom Header and Filter.
 
 ![](/assets/imap.jpg)
-
-
 
