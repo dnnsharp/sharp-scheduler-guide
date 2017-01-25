@@ -10,6 +10,10 @@ The tokens below are generated:
 * \[CredentialData:&lt;Key&gt;\] - will be created with the custom data set in the Credential Section used for connection; 
 * \[Mail:From\] - contains the sender email; 
 * \[Mail:FromName\] - contains the sender's friendly name; 
+  * In case of you need to extract the sender's FirstName, MiddleName, LastName the most common scenario is to use a Regex Parser Action with the \[Mail:FromName\] as Input and the following settings as Parse Data:
+    * **FirstName** Stored in Token with the **\(\w+\) **Regex Pattern; 
+    * **MiddleName **Stored in Token with the **\(?:\w+\[^\S\n\]+\)\(.\*\)\(?:\[^\S\n\]+**\)** **Regex Pattern; 
+    * **LastName** Stored in Token with the** \(?:\(?:\w+\)\[^\S\n\]+\)+\(\w+\)$** Regex Patter.
 * \[Mail:To\]  - contains a list of emails with friendly name separated by comma; 
 * \[Mail:Cc\] - contains a list of emails with friendly name separated by comma;
 * \[Mail:Bcc\] - contains a list of emails with friendly name separated by comma;
